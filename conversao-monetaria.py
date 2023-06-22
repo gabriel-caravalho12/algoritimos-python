@@ -1,5 +1,7 @@
+import json
 from decimal import Decimal
 import sys
+import requests
 
 value = input("digite o valor a ser convertido:")
 
@@ -11,6 +13,10 @@ except:
     sys.exit(2)
 
 def calc_value(value):
+    data = requests.get('https://economia.awesomeapi.com.br/last/USD')
+    dolar = json.loads(data.text)
+    valor = dolar["USDBRL"]
+    print(valor["high"])
     pass
 
 a = calc_value(value)
