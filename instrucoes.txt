@@ -1,0 +1,10 @@
+Criar um programa que:
+
+1) Receba um valor monetário
+2) valide que o mesmo é um valor monetário válido
+3) Acesse a API awesomeapi no endpoint https://economia.awesomeapi.com.br/last/USD
+4) Baseado na cotação do dólar encontrada, converta o valor monetário informado pelo usuário para Dólar
+5) Imprima na tela
+Valor em Reais: Valor informado pelo usuário;
+Cotação de Hoje: Valor da cotação atual;
+Valor em Dólar: Valor convertido;
