@@ -1,8 +1,17 @@
 import csv
+arquivo = open('arquivos/todos-os-clientes.csv')
+arquivodev = open('arquivos/devedores.csv')
 
-arquivo = open('arquivos/devedores.csv')
-conteudo = arquivo.read()
-arquivo.close()
+clientes = arquivo.read()
+devedores = arquivodev.read()
 
-linhas = conteudo.split(',')
-print(linhas)
+
+a = set(clientes.split())
+b = set(devedores.split())
+#
+# intersecao = a & b and open('r' 'arquivos/intersecao.csv')
+# intersecao.close()
+conteudo = a - b
+
+# linhas = conteudo.split(',')
+print(conteudo)
