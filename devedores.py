@@ -9,9 +9,14 @@ devedores = arquivodev.read()
 a = set(clientes.split())
 b = set(devedores.split())
 #
-# intersecao = a & b and open('r' 'arquivos/intersecao.csv')
-# intersecao.close()
-conteudo = a - b
+intersecao = a - b
+
+escrever = open('arquivos/intersecao.csv', 'w')
+escrita = csv.writer(escrever)
+escrita.writerows(intersecao)
+escrever.close()
+
+# conteudo = a - b
 
 # linhas = conteudo.split(',')
-print(conteudo)
+# print(conteudo)
