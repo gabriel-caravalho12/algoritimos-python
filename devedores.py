@@ -13,10 +13,9 @@ intersecao = a - b
 
 escrever = open('arquivos/intersecao.csv', 'w')
 escrita = csv.writer(escrever)
-escrita.writerows(intersecao)
+escrita.writerows(str(intersecao))
 escrever.close()
 
-# conteudo = a - b
+conteudo = a - b
 
-# linhas = conteudo.split(',')
-# print(conteudo)
+print(conteudo)
