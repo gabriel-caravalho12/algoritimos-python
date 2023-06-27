@@ -1,10 +1,8 @@
-Criar um programa que:
+Baseado nas listas em anexo o programador deve:
 
-1) Receba um valor monetário
-2) valide que o mesmo é um valor monetário válido
-3) Acesse a API awesomeapi no endpoint https://economia.awesomeapi.com.br/last/USD
-4) Baseado na cotação do dólar encontrada, converta o valor monetário informado pelo usuário para Dólar
-5) Imprima na tela
-Valor em Reais: Valor informado pelo usuário;
-Cotação de Hoje: Valor da cotação atual;
-Valor em Dólar: Valor convertido;
+1) Criar um software que leia o conteúdo dos arquivos, todos-os-clientes.csv e devedores.csv. 
+
+2) De posse dos dados em memória o programador deve listar na saída, quantos clientes não são devedores, seus nomes e países.
+
+3) Não use relação de pertinência com for, é lento e dependendo a quantidade de registros pode quebrar o seu software.
+A separação dos dados deve ser feita usando apenas matemática.
