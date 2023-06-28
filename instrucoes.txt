@@ -6,3 +6,7 @@ Baseado nas listas em anexo o programador deve:
 
 3) Não use relação de pertinência com for, é lento e dependendo a quantidade de registros pode quebrar o seu software.
 A separação dos dados deve ser feita usando apenas matemática.
+
+
+transformar meu conjunto interseção em uma tupla e conseguir pegar dessa tupla nome e país
+logo após contar os nomes para ter os clientes não devedores
