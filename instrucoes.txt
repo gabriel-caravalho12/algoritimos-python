@@ -1,12 +1,12 @@
-Baseado nas listas em anexo o programador deve:
+Construa um software que, receba uma matriz quadrada de qualquer tamanho e imprima sua diagonal principal.
 
-1) Criar um software que leia o conteúdo dos arquivos, todos-os-clientes.csv e devedores.csv. 
+Por exemplo, tendo a matriz quadrada como exemplo abaixo:
+matriz = [
+    [1, 2, 3, 5],
+    [4, 5, 6, 7],
+    [7, 8, 9, 9],
+    [9, 1, 4, 3],
+]
 
-2) De posse dos dados em memória o programador deve listar na saída, quantos clientes não são devedores, seus nomes e países.
-
-3) Não use relação de pertinência com for, é lento e dependendo a quantidade de registros pode quebrar o seu software.
-A separação dos dados deve ser feita usando apenas matemática.
-
-
-transformar meu conjunto interseção em uma tupla e conseguir pegar dessa tupla nome e país
-logo após contar os nomes para ter os clientes não devedores
+O software deve imprimir a diagonal principal, que para o exemplo acima é:
+1, 5, 9, 3
