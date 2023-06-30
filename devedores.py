@@ -15,7 +15,7 @@ intersecao = a - b
 nov_intersecao = list(intersecao)
 
 nome = nov_intersecao[0]
-nao_devedores = nome.count(nome)
+nao_devedores = nov_intersecao.count(nov_intersecao)
 # # método de escrita em um arquivo csv
 # # escrever = open('arquivos/intersecao.csv', 'w')
 # # escrita = csv.writer(escrever)
