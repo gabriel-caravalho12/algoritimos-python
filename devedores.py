@@ -37,6 +37,7 @@ def search_dev():
 
 nomecli, countrycli = search_cli()
 nomedev = search_dev()
+dev = len(nomedev)
 
 country = set()
 intersection = set()
@@ -48,3 +49,11 @@ country = countrycli
 print('o total de não devedores é:{0}'.format(no_dev))
 print('seus nomes são: {0}'.format(intersection))
 print('seus respectivos países são:{0}'.format(country))
+
+print(no_dev)
+
+# real
+todos = len(nomecli)
+real = dev + no_dev # devedores sao "315" e os não devedores sao "265"
+
+print('prova real dos devedores:{0}'.format(real))
