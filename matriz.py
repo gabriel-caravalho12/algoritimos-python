@@ -31,5 +31,5 @@ while indx <= limit:
 
     except:
        for x in a:
-        print('{0}'.format(x), end='')
+        print('{0}'.format(x), )
 
