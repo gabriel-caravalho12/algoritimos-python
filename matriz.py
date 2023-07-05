@@ -10,7 +10,7 @@ variáveis para melhor entender o que está acontecendo :)
 indx = 0
 x = matriz[0]
 limit = len(matriz) -1
-
+a = list()
 """
 a diagonal principal em si
 """
@@ -21,17 +21,15 @@ while indx <= limit:
     """
     y = x[indx]
     try:
-        if indx == limit:
-            print("{0}".format(y))
+        if indx <= limit:
+            indx += 1
+            a.append(y)
+            x = matriz[indx]
         else:
-            pass
-        indx += 1
-        x = matriz[indx]
-        print("{0}".format(y))
-
+            a.append(y)
 
 
     except:
-        print("processo finalizado!")
-
+       for x in a:
+        print('{0}'.format(x), end='')
 
