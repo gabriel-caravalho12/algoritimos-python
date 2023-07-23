@@ -1,12 +1,5 @@
-Construa um software que, receba uma matriz quadrada de qualquer tamanho e imprima sua diagonal principal.
+<--- ideia de gabriel --->
 
-Por exemplo, tendo a matriz quadrada como exemplo abaixo:
-matriz = [
-    [1, 2, 3, 5],
-    [4, 5, 6, 7],
-    [7, 8, 9, 9],
-    [9, 1, 4, 3],
-]
-
-O software deve imprimir a diagonal principal, que para o exemplo acima é:
-1, 5, 9, 3
+fazer um script que consiga criar um banco de dados
+fazer uma ligação com esse banco de dados para criar usuários com suas respectivas senhas e e-mail
+e depois listar todos os dados criados
